@@ -5,7 +5,7 @@ public class ReservaService {
         if (cidade.equalsIgnoreCase("Belo Horizonte") || cidade.equalsIgnoreCase("Contagem")) {
             return "Motorista a caminho";
         } else {
-            return "Área fora de  cobertura"; 
+            return "Área fora de cobertura"; 
         }
     }
 }
